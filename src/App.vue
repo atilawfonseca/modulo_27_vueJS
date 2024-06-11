@@ -37,7 +37,7 @@ const calcular = () => {
   <main>
     <div class="row mt-5">
       <div class="col-2">
-        <input type="text" placeholder="Insira algum número" class="form-control text-center p-2" @input="evento => estado.num1 = evento.target.value">
+        <input type="number" placeholder="Insira algum número" class="form-control text-center p-2" @input="evento => estado.num1 = evento.target.value">
       </div>
       <div class="col-4">
         <select class="form-control" @change="evento => estado.operacao = evento.target.value">
@@ -49,7 +49,7 @@ const calcular = () => {
         </select>
       </div>
       <div class="col-2">
-        <input type="text" placeholder="Insira algum número" class="form-control text-center p-2" @input="evento => estado.num2 = evento.target.value">
+        <input type="number" placeholder="Insira algum número" class="form-control text-center p-2" @input="evento => estado.num2 = evento.target.value">
       </div>
     </div>
     <div class=" mt-4">
